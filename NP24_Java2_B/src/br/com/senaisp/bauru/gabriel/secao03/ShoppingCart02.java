@@ -10,7 +10,7 @@ public class ShoppingCart02 {
         
         double price = 5.00;
         double tax = 0.05;		
-        int quantity = 5;
+        int quantity = 90;
         
         
         // Declare and assign a calculated totalPrice
