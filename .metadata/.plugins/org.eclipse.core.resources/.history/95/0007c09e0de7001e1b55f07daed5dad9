@@ -1,0 +1,24 @@
+package br.com.senaisp.bauru.gabriel.secao05;
+
+import javax.swing.JOptionPane;
+
+public class HistoriaDoExercicio03_2 {
+
+	public static void main(String[] args) {
+
+		boolean resp = JOptionPane.showConfirmDialog(null, "Você quer mesmo particiapar","Participação",
+				                                       JOptionPane.YES_NO_OPTION,
+				                                       JOptionPane.QUESTION_MESSAGE) 
+				==JOptionPane.YES_OPTION;
+		
+		String msg1 = (String)JOptionPane.showInputDialog(null,
+				                              "Esta é uma pergunta?",
+				                              "Titulo da Caixa de Dialogo",
+				                              JOptionPane.INFORMATION_MESSAGE,
+				                              null,
+				                              null,
+				                              
+				                              "Digite algo aqui");
+	}
+
+}

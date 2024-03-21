@@ -1,0 +1,31 @@
+package br.com.senaisp.bauru.gabriel.licao04.secao01;
+
+public class FestaDoAlex {
+	//Constantes
+    final static double IMPOSTO = 0.05;
+    final static double GORJETA = 0.15;
+
+	public static void main(String[] args) {
+          double pessoa1 = 10;
+          double pessoa2 = 12;
+          double pessoa3 = 9;
+          double pessoa4 = 8;
+          double pessoa5 = 7;
+          double pessoa6 = 15;
+          double pessoa7 = 11;
+          double pessoa8 = 30;
+
+          
+          //Vamos as contas
+         
+          double total1 = pessoa1 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total2 = pessoa2 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total3 = pessoa3 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total4 = pessoa4 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total5 = pessoa5 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total6 = pessoa6 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total7 = pessoa7 * (1 + IMPOSTO) * (1+ GORJETA);
+          double total8 = pessoa8 * (1 + IMPOSTO) * (1+ GORJETA);
+	}
+
+}

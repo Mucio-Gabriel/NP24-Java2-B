@@ -1,0 +1,17 @@
+package br.com.senaisp.bauru.gabriel.licao04.secao01;
+
+public class FestaDoAlex {
+
+	public static void main(String[] args) {
+          double pessoa1 = 10;
+          double pessoa2 = 12;
+          double pessoa3 = 9;
+          double pessoa4 = 8;
+          double pessoa5 = 7;
+          double pessoa6 = 15;
+          double pessoa7 = 11;
+          double pessoa8 = 30;
+
+	}
+
+}
