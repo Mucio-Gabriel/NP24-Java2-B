@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.gabriel.licao04.secao03;
+
+public class ExemploString01 {
+
+	public static void main(String[] args) {
+		String nome = "Richard";
+		nome = "Roberto";
+
+	}
+
+}

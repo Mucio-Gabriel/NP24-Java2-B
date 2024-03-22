@@ -12,9 +12,10 @@ public class HistoriaDoExercicio03_2 {
 				
 					
 				==JOptionPane.YES_OPTION;
-
-		
-		String msg1 = (String)JOptionPane.showInputDialog(null,
+		if(resp) {
+			
+		//Nome da pessoa (Pergunta 1)
+		String nome = (String)JOptionPane.showInputDialog(null,
 				                              "Qual o seu nome?",
 				                              "Perguta 1",
 				                              JOptionPane.QUESTION_MESSAGE,
@@ -22,10 +23,16 @@ public class HistoriaDoExercicio03_2 {
 				                              null,
 				                              
 				                              "Digite seu nome");
-		int idade = Integer.parseInt((String)JOptionPane.showInputDialog("Qual a sua idade? "),JOptionPane.QUESTION_MESSAGE);
-		//double salario = Double.parseDouble((String)JOptionPane.showInputDialog("Quanto que você ganha ?"),JOptionPane.QUESTION_MESSAGE);
+		//Pergunta 2
+		String idade = (String)JOptionPane.showInputDialog("Qual a sua Idade?");
+		
+		//int idade = 
 		
 		
+		
+		}else {
+			JOptionPane.showMessageDialog(null, "Tudo bem,ate mais");
+		}
 		
 	}
 
