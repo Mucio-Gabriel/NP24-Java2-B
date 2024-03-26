@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="javax.naming.CompositeName"/>
     <fullyQualifiedTypeName name="java.awt.JobAttributes"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.imageio.stream.ImageInputStreamImpl"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
@@ -13,4 +12,5 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao04.exercicio.MetodosCalculo"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

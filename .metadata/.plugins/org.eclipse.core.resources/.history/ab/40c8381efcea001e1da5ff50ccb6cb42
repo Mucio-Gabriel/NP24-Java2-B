@@ -1,0 +1,27 @@
+package br.com.senaisp.bauru.gabriel.licao05.exercicio;
+
+import java.util.Scanner;
+
+public class Exemplo02 {
+
+	public static void main(String[] args) {
+		
+		int dia , mes , ano;
+		
+		Scanner sc = new Scanner  (System.in);
+		boolean bDataValida = false;
+		System.out.println("Digite sua data de nascimento: ");
+		String xDtNasc = sc.nextLine();
+		Scanner sc2 = new Scanner(xDtNasc);
+	   //Usando barra como delimitador
+		sc2.useDelimiter("/");
+		//Pegando as Partes da data
+		dia = sc2.nextInt();
+		mes = sc2.nextInt();
+		ano = sc2.nextInt();
+		//Fechando o scanner 2
+		sc.close();
+
+	}
+
+}
