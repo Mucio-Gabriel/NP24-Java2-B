@@ -1,0 +1,18 @@
+package br.com.senaisp.bauru.gabriel.licao07.exercicio;
+
+public class Cartao {
+	private static int contatador = 0;
+	
+	private int numero;
+	private int creditos;
+	private int tickets;
+	//Constructor
+	public Cartao() {
+		
+		numero = ++contatador;
+		creditos = 0;
+		tickets = 0;
+	}
+	
+
+}

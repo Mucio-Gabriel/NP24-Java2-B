@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.StrictMath"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao04.exercicio.MetodosCalculo"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao06.lacofor.Poligonos"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
@@ -18,4 +17,8 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao06.lacowhile.Shape"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao07.exemplos.ContaBancaria"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao07.exercicio.Cartao"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao07.exercicio.MaquinaDeFliperama"/>
 </qualifiedTypeNameHistroy>
