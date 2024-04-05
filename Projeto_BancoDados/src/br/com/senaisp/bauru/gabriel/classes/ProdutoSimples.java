@@ -1,11 +1,12 @@
 package br.com.senaisp.bauru.gabriel.classes;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import br.com.senaisp.bauru.gabriel.testers.ConexaoBD;
 
 public class ProdutoSimples {
 
@@ -27,8 +28,7 @@ public class ProdutoSimples {
 		custo = 0;
 
 		// Instanciando o DriverManager
-		conn = DriverManager.getConnection("jdbc:sqlite:C:\\Javalibs\\dados\\NP24_JAVA2_B.DB");
-
+		conn = ConexaoBD.getInstancia().getConn();
 	}
 
 	// Metodos (Getters and Setters)
