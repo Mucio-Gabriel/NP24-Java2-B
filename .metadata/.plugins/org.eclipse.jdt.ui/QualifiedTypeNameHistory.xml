@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="javax.imageio.stream.ImageInputStreamImpl"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.StrictMath"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.licao04.exercicio.MetodosCalculo"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
@@ -40,4 +39,22 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.AppConfigurationEntry"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.gabriel.testers.ConexaoBD"/>
+    <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.TilePane"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.Group"/>
+    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.Priority"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.FontWeight"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+    <fullyQualifiedTypeName name="javafx.scene.shape.StrokeType"/>
+    <fullyQualifiedTypeName name="javafx.scene.shape.StrokeLineCap"/>
+    <fullyQualifiedTypeName name="javafx.scene.shape.StrokeLineJoin"/>
 </qualifiedTypeNameHistroy>
