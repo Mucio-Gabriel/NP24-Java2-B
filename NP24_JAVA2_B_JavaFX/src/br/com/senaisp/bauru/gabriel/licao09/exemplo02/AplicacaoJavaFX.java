@@ -4,6 +4,9 @@ import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.effect.DropShadow;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.paint.Color;
@@ -14,6 +17,7 @@ import javafx.scene.shape.StrokeType;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 public class AplicacaoJavaFX extends Application {
@@ -63,6 +67,10 @@ public class AplicacaoJavaFX extends Application {
 		rec.setStrokeWidth(10);
 		// Adicionar o rectangle ao nó root
 		root.getChildren().add(rec);
+		//Criando o sombreamento
+		DropShadow ds = new DropShadow();
+		ds.setColor(Color.BLACK);
+		
 		// Adicionando o Texto
 		Text txt = new Text("Dorm 6:\n200");
 		txt.setFont(Font.font("Verdana", FontWeight.BOLD, 30));
@@ -77,8 +85,26 @@ public class AplicacaoJavaFX extends Application {
 		// Arredondando o contorno (abaulando)
 		txt.setStrokeLineCap(StrokeLineCap.ROUND);
 		txt.setStrokeLineJoin(StrokeLineJoin.ROUND);
-		// Adicionando ao nó root
+		// Deixando Centralizado o Texto
+		txt.setTextAlignment(TextAlignment.CENTER);
+		//Aplicando o efeito do sombreamento
+		txt.setEffect(ds);
+        // Adicionando ao nó root
 		root.getChildren().add(txt);
+		//Criando o objeto image
+		Image img = new Image(getClass().getResource("Images/Duke.png").toString());
+		//Criando o visualizador de imagens
+		ImageView imgVw = new ImageView(img);
+		//Dimensionado o tamnaho da visualização da imagem
+		imgVw.setFitWidth(100);
+		//imgVw.setFitHeight(100);
+		//Faz com que a imagem nao distorça
+		imgVw.setPreserveRatio(true);
+		//Posicionado o visualizado
+		imgVw.setLayoutX(450);
+		imgVw.setLayoutY(100);
+		//Colocando no nó root
+		root.getChildren().add(imgVw);
 
 	}
 
