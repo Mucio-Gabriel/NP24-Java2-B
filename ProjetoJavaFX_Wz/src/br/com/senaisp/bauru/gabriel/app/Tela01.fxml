@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.senaisp.bauru.gabriel.app.Tela01Controller">
+   <children>
+      <GridPane hgap="5.0" layoutX="22.0" layoutY="21.0" vgap="5.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="367.79998779296875" minWidth="10.0" prefWidth="139.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="611.0" minWidth="10.0" prefWidth="611.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="22.599996948242186" minHeight="10.0" prefHeight="21.799993896484374" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="52.799993896484374" minHeight="10.0" prefHeight="24.6" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="48.80000915527343" minHeight="8.000006103515616" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="48.80000915527343" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="codigo:" />
+            <Label text="descrição:" GridPane.rowIndex="1" />
+            <Label text="saldo:" GridPane.rowIndex="2" />
+            <Label text="custo:" GridPane.rowIndex="3" />
+            <TextField fx:id="txtCodigo" GridPane.columnIndex="1" />
+            <TextField fx:id="txtDescricao" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtSaldo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtCusto" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnGravar" layoutX="171.0" layoutY="155.0" mnemonicParsing="false" onAction="#btnGravarAct" text="Gravar" />
+      <Button fx:id="btnCancelar" layoutX="279.0" layoutY="155.0" mnemonicParsing="false" onAction="#btnCancelarAct" text="Cancelar" />
+   </children>
+</Pane>
